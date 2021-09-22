@@ -1,0 +1,50 @@
+defaultPlacement: end
+fieldLayouts:
+  fef7b4c5-e296-438a-88f8-f6a3d95abb3e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: b48c80c1-1ad6-4af5-93a8-de0935abee4e # Plain Text Br
+            instructions: ''
+            label: Copy
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: investigation
+name: Investigation
+siteSettings:
+  80b8d62b-af42-4ac6-ad7f-087f1758cb16: # starter-project
+    hasUrls: true
+    template: entries/pages/index
+    uriFormat: 'investigation/{slug}'
+structure:
+  maxLevels: null
+  uid: a33a2c5d-e10b-40c9-828d-ca00d6336dd5

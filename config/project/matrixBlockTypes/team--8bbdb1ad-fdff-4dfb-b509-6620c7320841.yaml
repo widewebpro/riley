@@ -1,0 +1,73 @@
+field: acb2329f-afa9-4cd8-be71-962b16380212 # Team
+fieldLayouts:
+  7d4dcbbb-4c35-41d2-be21-32822fc9750c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f3e0caa4-8653-4665-8025-ad6923eb2d99 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ed5c8a30-ad57-434d-be9d-71535846a671 # Members
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  ed5c8a30-ad57-434d-be9d-71535846a671: # Members
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: members
+    instructions: ''
+    name: Members
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: 'Add a team member'
+      showSiteMenu: false
+      source: null
+      sources:
+        - 'section:841fe8b0-59c4-48dd-8a30-f7d59faf83ef'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  f3e0caa4-8653-4665-8025-ad6923eb2d99: # Heading
+    columnSuffix: symhiaji
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: team
+name: Team
+sortOrder: 1

@@ -1,0 +1,50 @@
+defaultPlacement: end
+fieldLayouts:
+  68d3d1d0-f749-475b-8b74-01f37646fb9e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: b48c80c1-1ad6-4af5-93a8-de0935abee4e # Plain Text Br
+            instructions: ''
+            label: Copy
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: storyCategories
+name: 'Story Categories'
+siteSettings:
+  80b8d62b-af42-4ac6-ad7f-087f1758cb16: # starter-project
+    hasUrls: true
+    template: categories/story-categories
+    uriFormat: 'stories/categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 7977e045-5939-4e79-b530-9e446e3c4b40

@@ -1,0 +1,26 @@
+/* stylelint-disable */
+
+::selection {
+  @apply bg-blue-bright text-white;
+}
+
+/* Screen Readers */
+.srd,
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+body::after {
+  content: '';
+  @apply fixed z-10 top-0 left-0;
+  @apply w-0 h-screen bg-dark-0 opacity-0;
+  transition: width 0s ease 0.3s, opacity 0.3s ease;
+}
+
+body.dim-content::after {
+  @apply w-screen opacity-90;
+  transition: width 0s ease 0s, opacity 0.3s ease;
+}

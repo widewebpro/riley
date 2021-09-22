@@ -1,0 +1,23 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a886dc53-7c97-4221-86c6-8066c5398d92 # Common
+handle: investigationReportingEntry
+instructions: ''
+name: 'Investigation Reporting Entry'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:1a373dd5-7fa7-4369-b754-1718ee61b3e3'
+    - 'section:e5fba7f8-fb2c-4a6e-882a-6466032b9b1a'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

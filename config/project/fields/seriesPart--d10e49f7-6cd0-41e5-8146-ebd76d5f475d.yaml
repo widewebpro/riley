@@ -1,0 +1,20 @@
+columnSuffix: ayhnffkg
+contentColumnType: integer(10)
+fieldGroup: 7d12fbe5-1e24-4b37-8af1-d9e0c2284916 # Stories
+handle: seriesPart
+instructions: ''
+name: 'Series Part'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: '1'
+  max: null
+  min: '1'
+  prefix: null
+  previewCurrency: ''
+  previewFormat: none
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

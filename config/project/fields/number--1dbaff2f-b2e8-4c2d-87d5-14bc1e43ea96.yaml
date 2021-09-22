@@ -1,0 +1,20 @@
+columnSuffix: yasknwhl
+contentColumnType: integer(10)
+fieldGroup: a886dc53-7c97-4221-86c6-8066c5398d92 # Common
+handle: number
+instructions: ''
+name: Number
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: null
+  previewCurrency: ''
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

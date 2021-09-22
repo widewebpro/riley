@@ -1,0 +1,24 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a886dc53-7c97-4221-86c6-8066c5398d92 # Common
+handle: company
+instructions: ''
+name: Company
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: ''
+  limit: null
+  localizeRelations: false
+  selectionLabel: 'Add a company'
+  showSiteMenu: true
+  source: 'group:8ce4bc5c-df97-4375-85b9-c88cf3c08bda' # Company
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

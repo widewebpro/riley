@@ -1,0 +1,7 @@
+:root {
+  --contain: 20px;
+
+  @screen lg {
+    --contain: 32px;
+  }
+}

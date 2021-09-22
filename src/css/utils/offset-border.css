@@ -1,0 +1,41 @@
+.bg-border {
+  @apply relative inline-block;
+}
+
+.bg-border::after {
+  content: '';
+  @apply absolute right-[-5px] bottom-[-5px] bg-dark-0 w-full h-full -z-1;
+}
+
+.bg-border-transparent::after {
+  content: '';
+  @apply absolute right-[-4px] bottom-[-4px] bg-white border border-dark-0 w-full h-full -z-1;
+}
+
+.shadowed,
+.hover\:shadowed,
+.hover\:transition\:shadowed {
+  --color: theme('colors.blue.1');
+  box-shadow: 4px 4px 0 var(--color);
+
+  &.shadowed-blue-bright {
+    --color: theme('colors.blue.bright.1');
+  }
+
+  &.shadowed-yellow {
+    --color: theme('colors.yellow');
+  }
+}
+
+.hover\:transition\:shadowed,
+.hover\:shadowed {
+  box-shadow: 0 0 0 var(--color);
+
+  &:hover {
+    box-shadow: 4px 4px 0 var(--color);
+  }
+}
+
+.hover\:transition\:shadowed {
+  transition: 0.1s ease;
+}

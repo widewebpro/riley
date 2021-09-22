@@ -1,0 +1,70 @@
+childBlocks: ''
+field: 7772400f-679e-4618-bcb7-be31d722cdcd # Page Builder - Homepage
+fieldLayouts:
+  2d408376-5bf7-45eb-bdbe-17d9e5f69dbd:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 07c44a7a-06cd-4843-bce5-56aa56ebe7ff # Embed Code
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0a9a3ca0-8c46-4200-95e3-46db296d3ce4 # Plain Text
+            instructions: ''
+            label: Label
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 1d4b08f0-3e3b-4cfe-b66f-e856f4a0cc1f # Link Simple
+            instructions: ''
+            label: 'Label Link'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 48771a17-3222-416e-8842-da160b110b13 # Heading Br
+            instructions: ''
+            label: Heading
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 1d2ca8b8-3275-49e9-8b9e-f48a2906e9ee # Linkit
+            instructions: ''
+            label: 'Heading Link'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 85c70096-73a0-4cc0-ab2e-0a2088ef12a5 # Redactor Content Simple
+            instructions: ''
+            label: Copy
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: embedHighlight
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Embed Highlight'
+sortOrder: 3
+topLevel: true

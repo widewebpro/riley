@@ -1,0 +1,20 @@
+columnSuffix: jxdzmhya
+contentColumnType: smallint(1)
+fieldGroup: a886dc53-7c97-4221-86c6-8066c5398d92 # Common
+handle: number3to5
+instructions: ''
+name: 'Number [3-5]'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: '3'
+  max: '5'
+  min: '3'
+  prefix: null
+  previewCurrency: ''
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

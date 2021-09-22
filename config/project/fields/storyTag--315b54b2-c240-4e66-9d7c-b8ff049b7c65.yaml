@@ -1,0 +1,23 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 7d12fbe5-1e24-4b37-8af1-d9e0c2284916 # Stories
+handle: storyTag
+instructions: ''
+name: 'Story Tag'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: 'taggroup:b756e550-b2fa-4bf8-9fed-b861da891ebf' # Reporting Tag
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Tags

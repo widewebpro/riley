@@ -1,0 +1,26 @@
+/* .site-header {} */
+menu-drawer {
+  & dropdown-menu > ul ul {
+    @apply transition-all ease-linear duration-300 overflow-hidden;
+  }
+
+  & nav-inner {
+    @apply transition-all ease-linear duration-300 opacity-0 invisible;
+  }
+
+  & .active-nav {
+    @apply opacity-100 visible;
+  }
+
+  & i {
+    @apply transition-all ease-linear duration-300 transform;
+  }
+
+  & .active i {
+    @apply rotate-180;
+  }
+
+  & dropdown-menu > ul ul:not(.show) {
+    @apply hidden;
+  }
+}

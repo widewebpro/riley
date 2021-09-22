@@ -1,0 +1,22 @@
+/*
+
+  Used to contain the content
+
+*/
+
+.o-container {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  &.is-small {
+    max-width: 1260px;
+  }
+
+  &.is-wysiwyg {
+    @apply max-w-[800px];
+  }
+
+  &.is-fluid {
+    max-width: 100%;
+  }
+}

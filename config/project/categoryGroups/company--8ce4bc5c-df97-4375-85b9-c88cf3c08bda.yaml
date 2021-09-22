@@ -1,0 +1,59 @@
+defaultPlacement: end
+fieldLayouts:
+  77578024-c6dc-4d4c-a2b3-69fde8933db5:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: efe674ae-c86e-42f6-990a-d989f4755423 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: aec67da4-1009-4576-8352-f41af3d092a3 # External Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: company
+name: Company
+siteSettings:
+  80b8d62b-af42-4ac6-ad7f-087f1758cb16: # starter-project
+    hasUrls: true
+    template: null
+    uriFormat: 'company/{slug}'
+structure:
+  maxLevels: null
+  uid: 9f8c73ce-7efd-4bca-aa53-3e31ebabfabd

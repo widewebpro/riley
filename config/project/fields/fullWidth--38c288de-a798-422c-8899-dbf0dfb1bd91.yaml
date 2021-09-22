@@ -1,0 +1,14 @@
+columnSuffix: svvtousl
+contentColumnType: boolean
+fieldGroup: a886dc53-7c97-4221-86c6-8066c5398d92 # Common
+handle: fullWidth
+instructions: ''
+name: 'Full Width'
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

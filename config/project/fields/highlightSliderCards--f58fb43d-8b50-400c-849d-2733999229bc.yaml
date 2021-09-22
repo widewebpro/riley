@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: a886dc53-7c97-4221-86c6-8066c5398d92 # Common
+handle: highlightSliderCards
+instructions: ''
+name: 'Highlight Slider Cards'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_highlightslidercards}}'
+  maxBlocks: '6'
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,13 @@
+/* stylelint-disable */
+
+html {
+  box-sizing: border-box;
+}
+
+body {line-height: 1;}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

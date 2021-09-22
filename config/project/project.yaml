@@ -1,0 +1,161 @@
+dateModified: 1632311082
+email:
+  fromEmail: dev@papertiger.com
+  fromName: Documented
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0a9a3ca0-8c46-4200-95e3-46db296d3ce4: 'Plain Text' # Plain Text
+    0ab4a6db-5b5d-4ca2-9bc8-fc655ceb6515: Thumbnail # Thumbnail
+    0b071a35-0915-4975-b103-1431a02172a0: ' Investigation' #  Investigation
+    0d19be36-0fb7-4549-9165-ea6427c797da: 'Investigation Reporting Entry' # Investigation Reporting Entry
+    0dd0a561-0e6f-4e29-9ae5-6c3607254625: Body # Body
+    00e8ad18-40de-4f16-99f6-ad27a14f73ae: Image/Video # Image/Video
+    0f9ce258-a2cd-4470-8743-76580929f752: 'Published Date' # Published Date
+    1d2ca8b8-3275-49e9-8b9e-f48a2906e9ee: Linkit # Linkit
+    1d4b08f0-3e3b-4cfe-b66f-e856f4a0cc1f: 'Link Simple' # Link Simple
+    1dbaff2f-b2e8-4c2d-87d5-14bc1e43ea96: Number # Number
+    1ddd2db8-a60c-41a2-b19c-826dcd12766a: Billboard # Billboard
+    2c56121d-7571-46d4-b04d-4d31b5f376c2: 'Right Menu Items' # Right Menu Items
+    2deccf7f-090e-48a5-beed-8444dd367691: Homepage # Homepage
+    3b2ad79a-1aa0-4d9d-8189-e6c3c8363a1d: 'Plain Text' # Plain Text
+    4a17a3e8-cb94-4577-a936-853eea7c543f: Uploads # Uploads
+    4cbd7fc4-da0c-460e-b563-462a8e59d1d6: 'Background Color' # Background Color
+    5e5639fe-8652-4c5c-992a-05fe209a6698: 'Author Name' # Author Name
+    6ad6203e-34da-4a6c-a2df-a4176b2be85a: WYSIWYG # WYSIWYG
+    6b491ac7-5ef0-4901-8733-7aa55e3d568f: Quote # Quote
+    7b6f01b9-4b0a-48f0-93ae-c763763243fb: 'Site Navigation Bottom' # Site Navigation Bottom
+    07c44a7a-06cd-4843-bce5-56aa56ebe7ff: 'Embed Code' # Embed Code
+    7d12fbe5-1e24-4b37-8af1-d9e0c2284916: Stories # Stories
+    7f23176c-a8df-4d34-b601-96f076686723: 'Page Builder - Reporting' # Page Builder - Reporting
+    08b4219c-c40c-40c9-be83-f1711e1a0c40: 'Entries (6)' # Entries (6)
+    8bbdb1ad-fdff-4dfb-b509-6620c7320841: Team # Team
+    8bd7cf7f-ecc6-4ebe-88c8-dffde8141487: Image # Image
+    8c99c33f-c498-4f33-a1ec-7302258b80f9: 'In The News' # In The News
+    8ce4bc5c-df97-4375-85b9-c88cf3c08bda: Company # Company
+    8d079910-c24e-4628-b2ca-dd087bc77958: 'Team Member' # Team Member
+    11eb46d0-3abc-4e72-bc53-b6c9e53d6342: 'Linkit Full' # Linkit Full
+    21a95ca4-5a37-4fea-9ce3-bea8522e8fec: 'Link To' # Link To
+    24ba79c2-16d2-45da-b856-dd83d03292c9: 'Custom Link' # Custom Link
+    24d3efff-c64d-4ba6-9253-2b95e7f180ce: 'Story Categories' # Story Categories
+    31a5ad78-fc25-4f47-9946-08ee34d00dc5: Reportings # Reportings
+    38c288de-a798-422c-8899-dbf0dfb1bd91: 'Full Width' # Full Width
+    044cdbd5-2304-4a13-a131-e147a92fdb94: Billboard # Billboard
+    46a8be5e-c7d0-4f96-8600-ad90a4e02ef5: 'Investigation Category' # Investigation Category
+    46d3e1bb-4c5b-4245-97d9-21d3a91132cb: Asset # Asset
+    047de870-3e65-4b1a-a3f9-fe605a1f7eec: Entry # Entry
+    52f6bd02-cbc7-4678-9d90-73a506d38805: 'Linked In' # Linked In
+    55b74bf1-ee64-4e91-a98a-8d4c08241c39: 'Media Category' # Media Category
+    62a74685-ca84-4c4e-ad0e-98d623922a2c: 'Footer Navigation' # Footer Navigation
+    79ea894e-3beb-44a5-8b26-453796e0fce2: Image # Image
+    80b8d62b-af42-4ac6-ad7f-087f1758cb16: starter-project # starter-project
+    85c70096-73a0-4cc0-ab2e-0a2088ef12a5: 'Redactor Content Simple' # Redactor Content Simple
+    87f7cd6a-c90c-4c42-9d59-1f0a20445b8e: 'Main Story' # Main Story
+    97dc2a9c-df8b-4a9c-8646-c4e940187641: 'Callout Bar' # Callout Bar
+    98d9c5fb-30cf-4ac1-98fa-06938f4c055a: Stories # Stories
+    99ebb67b-8df9-4d2a-8889-060a14e56a0f: 'Redactor Content Advanced' # Redactor Content Advanced
+    206e0141-404b-415d-ab77-bed3818dc0ea: Company # Company
+    315b54b2-c240-4e66-9d7c-b8ff049b7c65: 'Story Tag' # Story Tag
+    473a3564-9521-4cf5-a436-5a6181745ffb: Billboard # Billboard
+    723dae35-ee00-42e6-92f7-53a590b6463e: Companies # Companies
+    0891ed57-024b-44fa-850c-3a8e6114d4a1: Documented # Documented
+    1106e99b-350f-4cf2-9455-907724cb12a0: Heading # Heading
+    2206c162-a40b-47c8-8abe-cf421c8c3daf: 'Embed Highlight' # Embed Highlight
+    4455bdce-11b7-488a-931e-503ec12af06a: 'Investigations By Category' # Investigations By Category
+    5558a5a1-e10d-439b-8719-641247876cac: 'Investigations By Category' # Investigations By Category
+    6467bb6b-3e86-4a90-a5ab-b9b57067c868: 'Billboard Heading Copy' # Billboard Heading Copy
+    6910b220-46b7-47d1-99d9-d229094e4e78: 'Footer Navigation Bottom' # Footer Navigation Bottom
+    8827a48f-2bf3-4923-ae78-befdec972518: 'Banner Type' # Banner Type
+    17521a95-4e4a-4d5f-9ffb-604d7f7b0858: 'Billboard Investigation Reporting' # Billboard Investigation Reporting
+    48771a17-3222-416e-8842-da160b110b13: 'Heading Br' # Heading Br
+    596142ba-11e5-4895-bde2-e81ebfba51c9: 'Content ' # Content 
+    7772400f-679e-4618-bcb7-be31d722cdcd: 'Page Builder - Homepage' # Page Builder - Homepage
+    8058875c-2285-4c55-80dc-a9d948b89bf2: 'Investigations List' # Investigations List
+    a2d9640e-323c-4e1f-abda-14007fa9a5c1: 'Redactor Default' # Redactor Default
+    a3d6fc0a-c051-4665-a722-337721b99e44: "Redactor Simple\t" # Redactor Simple	
+    a8bfb5d5-6e60-4cb0-8cfb-f8c84d7d6077: Credit # Credit
+    a85aaf6e-1dcb-4dcb-8ad1-ec747c69ddb8: 'Public Schema' # Public Schema
+    a822e0fd-3bfb-410c-ab84-8b34fa6d61f6: Homepage # Homepage
+    a886dc53-7c97-4221-86c6-8066c5398d92: Common # Common
+    ac03b4e8-8e0a-4b09-8044-acd34f681e5d: 'Number [3-5]' # Number [3-5]
+    acb2329f-afa9-4cd8-be71-962b16380212: Team # Team
+    aec67da4-1009-4576-8352-f41af3d092a3: 'External Link' # External Link
+    b1b1411f-a747-4050-849e-8feb701c2ccb: Subscribe # Subscribe
+    b48c80c1-1ad6-4af5-93a8-de0935abee4e: 'Plain Text Br' # Plain Text Br
+    b244cf18-4e3d-4c77-92f1-36e263f07a28: Heading # Heading
+    b756e550-b2fa-4bf8-9fed-b861da891ebf: 'Reporting Tag' # Reporting Tag
+    b1708df1-05d5-4fb2-9bf3-1db6f85a75b4: Embed # Embed
+    b9450c17-19da-48f3-8e67-188cbc56621a: 'Updated Date' # Updated Date
+    b1164032-6abf-44e1-a478-07e508d984f7: 'Story Series' # Story Series
+    bb7a9b30-a8de-4b65-8d88-eea6dcdac1d6: 'Services Grid' # Services Grid
+    c1ed7bdf-56ce-43c2-99e3-0eab2ebeea6c: 'Site Navigation' # Site Navigation
+    c820f475-a190-438e-9741-3b20fe50da6b: Investigation # Investigation
+    d2dd3fd8-7276-43e6-9e6f-7d275c6eec41: Media # Media
+    d10e49f7-6cd0-41e5-8146-ebd76d5f475d: 'Series Part' # Series Part
+    d6392018-b576-4af9-966f-3ab86da12b16: 'News (4)' # News (4)
+    da1c08d3-09b3-4230-93d7-e6f88e41121a: Heading # Heading
+    dc85828b-440e-490f-9f9f-c99d1e6395bd: 'Story Categories' # Story Categories
+    ded4ca61-4350-4a11-9d8e-52fd27ba7372: Heading # Heading
+    e1d1993c-7ba7-49ee-b580-2b450e94dd5c: 'Highlight & Article Slider' # Highlight & Article Slider
+    e5faf6ba-1975-4ca3-a8c4-c939da9cd368: 'Billboard Heading Copy' # Billboard Heading Copy
+    e8413c94-2573-4d80-96a8-d45186bed72b: 'Link To' # Link To
+    e81056ba-51a2-4c93-b70a-261e694d37fe: Entry # Entry
+    ed5c8a30-ad57-434d-be9d-71535846a671: Members # Members
+    edc5edad-1d37-4f4b-a8e2-c1715aec6e08: 'Background Image' # Background Image
+    efe674ae-c86e-42f6-990a-d989f4755423: Image # Image
+    f3e0caa4-8653-4665-8025-ad6923eb2d99: Heading # Heading
+    f3fa09d1-11b9-4cce-876a-364cd1a95d12: Investigation # Investigation
+    f5edb175-4968-4915-977c-0679c6401742: 'Twitter ' # Twitter 
+    f58fb43d-8b50-400c-849d-2733999229bc: 'Highlight Slider Cards' # Highlight Slider Cards
+    f5943737-ab32-4e79-b304-35d9279f28bf: Item # Item
+    fcd2461e-2e9e-4707-8e64-be94d81590b4: Subscribe # Subscribe
+    ff360103-820a-49e8-ab06-e99852cc0692: Images # Images
+plugins:
+  dospaces:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  freeform:
+    edition: lite
+    enabled: true
+    licenseKey: VLQ3IDPLY0MYALIJC9B1EVAC
+    schemaVersion: 3.3.2
+  linkit:
+    edition: standard
+    enabled: true
+    licenseKey: 9KXXGJPTGVDR61V1G3780EZL
+    schemaVersion: 1.0.8
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: K51XY8JNS9ST9RLWZ66ENSTR
+    schemaVersion: 1.0.21
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: D0L6IGL2XGCPTNJ5BPFFWSST
+    schemaVersion: 2.11.6
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: 726X0SGPU7RBQ3ZKUKVF11Z1
+    schemaVersion: 3.0.11
+system:
+  edition: pro
+  live: true
+  name: starter-project
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: ''
+  photoSubpath: user-photos
+  photoVolumeUid: 4a17a3e8-cb94-4577-a936-853eea7c543f # Uploads
+  requireEmailVerification: true
+  suspendByDefault: false
+  validateOnPublicRegistration: false

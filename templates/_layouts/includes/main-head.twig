@@ -1,0 +1,23 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="referrer" content="origin-when-cross-origin" />
+
+  {% include "_layouts/includes/favicons" %}
+  {% include "_layouts/includes/fonts" %}
+
+  <script>
+    function loaded(func) {if(document.readyState !== 'loading') {func()}else{document.addEventListener('DOMContentLoaded', function(){func()});}}
+    function interactive(func) {if(document.readyState !== 'loading') {func()}else{document.addEventListener('readystatechange', function(event) {if(event.target.readyState === 'interactive'){func()}});}}
+
+    loaded(function() {document.body.style.opacity = '1';if(!window.loadingImgs){window.loadingImgs = imgs = document.querySelectorAll('img:not(.loaded)[loading="lazy"]');}for (let i = 0; i < window.loadingImgs.length; i++) {const img = window.loadingImgs[i];if(img['complete'] || img['readyState'] == "complete") {showImg(window.loadingImgs[i], 'loaded')}}});
+
+    interactive(() => {if(!window.loadingImgs){window.loadingImgs = imgs = document.querySelectorAll('img:not(.loaded)[loading="lazy"]');};for (let i = 0; i < window.loadingImgs.length; i++) {window.loadingImgs[i].addEventListener('load', function() {showImg(window.loadingImgs[i], 'interactive')})};})
+
+    function showImg(img, type) {img.style.opacity='0';setTimeout(function(){img.style.transition='opacity 1s ease';img.style.opacity='1';img.classList.add('loaded');img.addEventListener('transitionend', function() {img.style = ''});},10);}
+  </script>
+
+  <link rel="stylesheet" href="/_compiled/app.css">
+  <noscript><style>html,html body{opacity:1!important;}img{opacity:1!important;}</style></noscript>
+  {% block headCSS %}{% endblock %}
+</head>

@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 7d12fbe5-1e24-4b37-8af1-d9e0c2284916 # Stories
+handle: storySeries
+instructions: ''
+name: 'Story Series'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '1'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:e5fba7f8-fb2c-4a6e-882a-6466032b9b1a'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

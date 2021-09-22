@@ -1,0 +1,43 @@
+childBlocks: ''
+field: 7772400f-679e-4618-bcb7-be31d722cdcd # Page Builder - Homepage
+fieldLayouts:
+  06740acc-4615-4087-aca5-509999f7f4be:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1106e99b-350f-4cf2-9455-907724cb12a0 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b48c80c1-1ad6-4af5-93a8-de0935abee4e # Plain Text Br
+            instructions: ''
+            label: Copy
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 11eb46d0-3abc-4e72-bc53-b6c9e53d6342 # Linkit Full
+            instructions: ''
+            label: Button
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: subscribe
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: Subscribe
+sortOrder: 5
+topLevel: true

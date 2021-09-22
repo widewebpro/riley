@@ -1,0 +1,147 @@
+[class*='text-style-'] {
+  @apply leading-none;
+}
+
+.text-style-d1 {
+  @apply text-48 leading-[0.9em];
+
+  @screen md {
+    @apply text-[8.333vw];
+  }
+
+  @screen xl {
+    @apply text-[120px];
+  }
+}
+
+.text-style-d2 {
+  @apply text-48;
+
+  @screen md {
+    @apply text-64;
+  }
+}
+
+.text-style-d3 {
+  @apply text-24;
+
+  @screen md {
+    @apply text-48;
+  }
+}
+
+.text-style-lg-teaser {
+  @apply text-18;
+
+  @screen xs {
+    @apply text-24;
+  }
+
+  @screen md {
+    @apply text-32;
+  }
+
+  @screen lg {
+    @apply text-48;
+  }
+}
+
+.text-style-d4 {
+  @apply text-21;
+
+  @screen md {
+    @apply text-40;
+  }
+}
+
+.text-style-d5 {
+  @apply text-21;
+
+  @screen md {
+    @apply text-32;
+  }
+}
+
+.text-style-d6 {
+  @apply text-21 leading-[1.1em];
+
+  @screen md {
+    @apply text-24;
+  }
+}
+
+.text-style-d6-alt {
+  @apply text-18;
+
+  @screen md {
+    @apply text-20;
+  }
+}
+
+.text-style-b1 {
+  @apply text-18 tracking-[0.02em] leading-[1.6em];
+
+  @screen md {
+    @apply text-20;
+  }
+}
+
+.text-style-b2 {
+  @apply text-16 leading-[1.2em];
+
+  @screen md {
+    @apply text-18;
+  }
+}
+
+.text-style-b3 {
+  @apply text-14;
+
+  @screen md {
+    @apply text-16;
+  }
+}
+
+.text-style-m1 {
+  @apply text-11 tracking-[-0.01em] font-Grotesk-Text-Medium;
+
+  @screen md {
+    @apply text-12;
+  }
+}
+
+.text-style-m2 {
+  @apply text-10 tracking-[-0.01em];
+}
+
+/* Common styles */
+
+.text-style-d1,
+.text-style-d2 {
+  @apply font-Druk;
+}
+
+.text-style-d3,
+.text-style-d3.text-style-alt,
+.text-style-lg-teaser,
+.text-style-d4,
+.text-style-d5,
+.text-style-d6,
+.text-style-d6.text-style-alt {
+  @apply font-Reckless-Medium tracking-[-0.01em];
+}
+
+.text-style-m2,
+.text-style-m1.text-style-mono {
+  @apply font-Grotesk-Mono-Medium;
+}
+
+.text-style-b1,
+.text-style-b2,
+.text-style-b3 {
+  @apply font-Grotesk-Text-Regular;
+}
+
+.text-style-caps {
+  @apply uppercase font-Grotesk-Bold tracking-[0.02em];
+}

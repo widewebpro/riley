@@ -1,0 +1,38 @@
+{%- set fonts = [{
+    fontFamily: 'Druk',
+    url: '/assets/fonts/DrukCond-Super',
+}, {
+    fontFamily: 'Grotesk-Bold',
+    url: '/assets/fonts/grotesk-bold',
+}, {
+    fontFamily: 'Grotesk-Mono-Medium',
+    url: '/assets/fonts/grotesk-mono-medium',
+}, {
+    fontFamily: 'Grotesk-Text-Medium',
+    url: '/assets/fonts/grotesk-text-medium',
+}, {
+    fontFamily: 'Grotesk-Text-Regular',
+    url: '/assets/fonts/grotesk-text-regular',
+}, {
+    fontFamily: 'Reckless-Medium',
+    url: '/assets/fonts/Reckless-Medium',
+}] -%}
+
+{%- for font in fonts -%}
+  <link rel="preload" href="{{font.url}}.woff2" as="font" type="font/woff2" crossorigin>
+{%- endfor -%}
+
+<style>
+{%- for font in fonts %}
+  @font-face{
+    font-family:{{font.fontFamily}};
+    src: url({{font.url}}.woff2) format("woff2"),
+         url({{font.url}}.woff) format("woff");
+    font-display: swap;
+  }
+{% endfor -%}
+</style>
+
+<script>if("fonts" in document) { {% for font in fonts %}var {{font.fontFamily|camel}} = new FontFace("{{font.fontFamily}}","url({{font.url}}.woff2) format('woff2'), url({{font.url}}.woff) format('woff')");{% endfor %}Promise.all([{% for font in fonts %}{{font.fontFamily|camel}}{% if not loop.last %},{% endif %}{% endfor %}]).then(function(fonts){fonts.forEach(function(font) {document.fonts.add(font);});});}</script>
+
+

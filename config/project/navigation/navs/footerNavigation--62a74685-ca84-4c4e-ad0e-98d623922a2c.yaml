@@ -1,0 +1,28 @@
+handle: footerNavigation
+instructions: ''
+maxNodes: ''
+name: 'Footer Navigation'
+permissions:
+  craft\elements\Asset:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Category:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Entry:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Tag:
+    enabled: ''
+    permissions: '*'
+  custom:
+    enabled: '1'
+  verbb\navigation\nodetypes\PassiveType:
+    enabled: '1'
+propagateNodes: false
+siteSettings:
+  80b8d62b-af42-4ac6-ad7f-087f1758cb16: null # starter-project
+sortOrder: 3
+structure:
+  maxLevels: '1'
+  uid: 5bbeb0be-2a3f-452a-b1b6-fb422f10dc22

@@ -1,0 +1,14 @@
+{% if currentUser %}
+  <div class="py-100 text-center">
+    <div class="text-style-25">Cannot find template ({{pageTemplate}}).</div><br>
+
+    Make sure your template handle follow this pattern: <br>
+    <strong>learn_WhyBritax_Safety</strong> <br><br>
+    And make sure the template is available:<br>
+    <strong>learn/whybritax/safety</strong>
+  </div>
+{% else %}
+  <div class="py-100 text-center text-style-40">
+    {{entry.title}}
+  </div>
+{% endif %}
