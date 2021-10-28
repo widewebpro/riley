@@ -1,8 +1,11 @@
 const glob = require('glob-all');
 const moment = require('moment');
 const webpack = require('webpack');
-const pkg = require('../package.json')
+const pkg = require('../package.json');
+const path = require('path');
+
 const settings = require('./config');
+const CriticalCssPlugin = require('critical-css-webpack-plugin');
 
 // webpack plugins
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
@@ -95,7 +98,19 @@ const prod = (isLegacy) => {
     new CreateSymlinkPlugin(settings.createSymlinkConfig,true),
     new BundleAnalyzerPlugin(configureBundleAnalyzer(legacy = false))
     // // new BrotliPlugin(configureBrotli(legacy = false)),
-  ]
+  ].concat(
+    new CriticalCssPlugin({
+      base: path.resolve(__dirname, '../web/_compiled/'),
+      src: process.env.MAIN_SITE_URL,
+      css: ['app.css'],
+      target: {
+        css : '../../templates/critical.css',
+      },
+      inline: false,
+      width: 1200,
+      height: 1200
+    })
+  )
 
   if(isLegacy) {
     plugins = [
