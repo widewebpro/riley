@@ -20,7 +20,7 @@ const cols = range(1, 23)
 module.exports = {
   mode: 'jit',
 
-  purge: configs.purge,
+  content: configs.purge,
 
   future: {
     purgeLayersByDefault: true,
