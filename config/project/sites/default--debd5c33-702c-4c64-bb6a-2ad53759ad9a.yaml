@@ -1,9 +1,8 @@
 baseUrl: $PRIMARY_SITE_URL
-enabled: true
 handle: default
 hasUrls: true
 language: en-US
-name: starter-project
+name: wideweb
 primary: true
-siteGroup: 0891ed57-024b-44fa-850c-3a8e6114d4a1 # Documented
+siteGroup: f4f19efb-9d5b-4bba-a152-be9d47c9930b # wideweb
 sortOrder: 1

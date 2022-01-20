@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  debd5c33-702c-4c64-bb6a-2ad53759ad9a: # wideweb
+    enabledByDefault: true
+    hasUrls: true
+    template: entries/pages/index
+    uriFormat: __home__
+type: single

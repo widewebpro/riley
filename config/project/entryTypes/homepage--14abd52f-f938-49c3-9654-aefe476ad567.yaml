@@ -1,6 +1,5 @@
-defaultPlacement: end
 fieldLayouts:
-  a23888fe-9798-4dc8-beea-df26be6e1d1b:
+  03a4cef7-022f-48ed-b4d9-9feaa4cc73f8:
     tabs:
       -
         elements:
@@ -24,18 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
+            type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: media
-name: Media
-siteSettings:
-  80b8d62b-af42-4ac6-ad7f-087f1758cb16: # starter-project
-    hasUrls: true
-    template: null
-    uriFormat: 'media/{slug}'
-structure:
-  maxLevels: null
-  uid: d00b8658-ccaf-42cf-b49f-d6f6dce52ae5
+handle: homepage
+hasTitleField: false
+name: Homepage
+section: 0ab26283-81bf-42cc-94e4-2a90f92f90a8 # Homepage
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
