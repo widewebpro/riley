@@ -1,0 +1,82 @@
+{% if alt is not defined %}
+  {% set alt = image.title %}
+{% endif %}
+{% if image.extension == 'svg'  %}
+  {% if svgOff is not defined %}
+    {{ svg(image) }}
+  {% else %}
+    {% set caption = caption is defined ? caption : '' %}
+    <picture {% if pictureClass is defined %}class="{{ pictureClass }}"{% endif %}>
+      <img {% if lazyOff is not defined %}loading="lazy"{% endif %}  decoding="async" src="{{ image.getUrl() }}" {% if class is defined %}class="{{ class }}"{% endif %} alt="{% if altTitle is defined and altTitle | length %}{{ altTitle }}{% else %}{{ image.title }}{% endif %}"{% if dataAttributes is defined %} {{ dataAttributes|raw }}{% endif %}>
+      {% if caption | length %}
+        <figcaption>{{ caption }}</figcaption>
+      {% endif %}
+    </picture>
+  {% endif %}
+{% else %}
+
+  {% set caption = caption is defined ? caption : '' %}
+
+  {% if preset is defined %}
+    {% if preset == 'banner' %}
+      {% set mobileImage = image.getUrl('bannerMobile') %}
+      {% set tabletImage = image.getUrl('bannerTablet') %}
+      {% set desktopImage = image.getUrl('bannerDesktop') %}
+
+      {% set mobileImageWebp = image.getUrl({transform:'bannerMobile',format: 'webp'}) %}
+      {% set tabletImageWebp = image.getUrl({transform:'bannerTablet',format: 'webp'}) %}
+      {% set desktopImageWebp = image.getUrl({transform:'bannerDesktop',format: 'webp'}) %}
+    {% else %}
+      {% set mobileImage = image.getUrl({mode:'fit',width:425,quality:82}) %}
+      {% set tabletImage = image.getUrl({mode:'fit',width:1024,quality:82}) %}
+      {% set desktopImage = image.getUrl({mode:'fit',width:1920,quality:82}) %}
+
+      {% set mobileImageWebp = image.getUrl({mode:'fit',width:425,quality:82,format: 'webp'}) %}
+      {% set tabletImageWebp = image.getUrl({mode:'fit',width:1024,quality:82,format: 'webp'}) %}
+      {% set desktopImageWebp = image.getUrl({mode:'fit',width:1920,quality:82,format: 'webp'}) %}
+    {% endif %}
+  {% else %}
+    {% set mobileImage = image.getUrl({mode:'fit',width:425,quality:82}) %}
+    {% set tabletImage = image.getUrl({mode:'fit',width:1024,quality:82}) %}
+    {% set desktopImage = image.getUrl({mode:'fit',width:1920,quality:82}) %}
+
+    {% set mobileImageWebp = image.getUrl({mode:'fit',width:425,quality:82,format: 'webp'}) %}
+    {% set tabletImageWebp = image.getUrl({mode:'fit',width:1024,quality:82,format: 'webp'}) %}
+    {% set desktopImageWebp = image.getUrl({mode:'fit',width:1920,quality:82,format: 'webp'}) %}
+  {% endif %}
+
+
+  {% if bgImage is defined and selector is defined %}
+    <style type="text/css" scoped>
+      {{ selector }} {
+        background-image: url({{ mobileImage }});
+      }
+      @media (min-width: 600px) {
+      {{ selector }} {
+        background-image: url({{ tabletImage }});
+      }
+      }
+      @media (min-width: 1023px) {
+      {{ selector }} {
+        background-image: url({{ desktopImage }});
+      }
+      }
+    </style>
+  {% else %}
+    <picture
+      {% if pictureClass is defined %}class="{{ pictureClass }} lazy-load-new" {% else %} class="lazy-load-new" {% endif %}
+      {% if pictureStyle is defined %}style="{{ pictureStyle }}" {% endif %}
+      data-src="{{ image.getUrl() }}"
+      data-img-class="{{ class ?? "" }}"
+      data-alt-text="{{ alt ?? image.title }}"
+      data-mobile-webp="{{ mobileImageWebp ?: image.getUrl() }}"
+      data-tablet-webp="{{ tabletImageWebp ?: image.getUrl() }}"
+      data-desktop-webp="{{ desktopImageWebp ?: image.getUrl() }}"
+      data-url-mobile="{{ mobileImage ?: image.getUrl() }}"
+      data-url-tablet="{{ tabletImage ?: image.getUrl() }}"
+      data-url-desktop="{{ desktopImage ?: image.getUrl() }}">
+      <img src="{{ image ? image.url() }}" alt="" class="{{ class ?? null }}">
+    </picture>
+  {% endif %}
+
+{% endif %}
