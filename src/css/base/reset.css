@@ -1,8 +1,7 @@
 /* stylelint-disable declaration-property-unit-disallowed-list */
 /* purgecss ignore */
 html {
-  font-size: 16px;
-  @apply text-blue-1;
+  @apply text-16 md:text-[0.952vw];
 }
 
 html, body {

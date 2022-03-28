@@ -1,5 +1,5 @@
 {
-  "name": "project-name",
+  "name": "riley",
   "version": "1.0.0",
   "description": ".",
   "author": {
@@ -71,6 +71,7 @@
     "critical-css-webpack-plugin": "^3.0.0",
     "imagesloaded": "^4.1.4",
     "lazysizes": "^5.3.2",
+    "gsap": "file:src/js/_utils/gsap-bonus.tgz",
     "picturefill": "^3.0.3"
   }
 }

@@ -1,0 +1,7 @@
+.o-container {
+  @apply max-w-[1680px] mx-auto  px-[7.375rem];
+}
+
+.o-container-small {
+  @apply max-w-[76.313rem] mx-auto;
+}

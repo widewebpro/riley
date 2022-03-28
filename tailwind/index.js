@@ -30,6 +30,7 @@ module.exports = {
     zIndex: configs.zIndex,
     colors: configs.colors,
     screens: configs.screens,
+    lineHeight:configs.spacing,
     borderRadius: configs.borderRadius,
     opacity: configs.opacity,
     stroke: colors,

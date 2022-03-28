@@ -2,19 +2,16 @@
 <html class="is-loading" lang="{{currentSite.language}}">
   {% include "_layouts/includes/main-head" %}
   <body>
-
-    <a class="srd" href="#main">Skip to Page Content</a>
-
     {% include "_includes/globals/site-header" %}
 
-    <div class="site-container">
-      <lazy-load class="js-custom-el block" data-js-module="customElement/lazy-load">
+    <div class="site-container  overflow-x-hidden overflow-y-scroll">
+      <animation-dom class="js-custom-el block"  data-js-module="animation-dom">
         <main id="main" class="site-content min-h-screen" role="main">
           {% block content %}
 
           {% endblock %}
         </main>
-      </lazy-load>
+      </animation-dom>
     </div>
 
     {% include "_includes/globals/footer" %}

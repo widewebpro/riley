@@ -1,25 +1,28 @@
 {%- set fonts = [{
-    fontFamily: 'Druk',
-    url: '/assets/fonts/DrukCond-Super',
-}, {
-    fontFamily: 'Grotesk-Bold',
-    url: '/assets/fonts/grotesk-bold',
-}, {
-    fontFamily: 'Grotesk-Mono-Medium',
-    url: '/assets/fonts/grotesk-mono-medium',
-}, {
-    fontFamily: 'Grotesk-Text-Medium',
-    url: '/assets/fonts/grotesk-text-medium',
-}, {
-    fontFamily: 'Grotesk-Text-Regular',
-    url: '/assets/fonts/grotesk-text-regular',
-}, {
-    fontFamily: 'Reckless-Medium',
-    url: '/assets/fonts/Reckless-Medium',
-}] -%}
+    fontFamily: 'FiraSansCondensed',
+    url: '/assets/fonts/FiraSansCondensed/FiraSansCondensed-Medium',
+},{
+    fontFamily: 'Overpass-Italic',
+    url: '/assets/fonts/Overpass/Overpass-Italic',
+  },
+  {
+    fontFamily: 'Overpass-Bold',
+    url: '/assets/fonts/Overpass/Overpass-Bold',
+  },
+  {
+    fontFamily: 'Overpass-BoldItalic',
+    url: '/assets/fonts/Overpass/Overpass-BoldItalic',
+  },
+  {
+    fontFamily: 'Overpass-Regular',
+    url: '/assets/fonts/Overpass/Overpass-Regular',
+  }
+
+] -%}
 
 {%- for font in fonts -%}
   <link rel="preload" href="{{font.url}}.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{font.url}}.woff" as="font" type="font/woff" crossorigin>
 {%- endfor -%}
 
 <style>
