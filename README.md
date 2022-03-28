@@ -1,41 +1,15 @@
-# Project Starter
+# riley
 
 ## Requirements
-Node 8.12+ ([nvm](https://github.com/creationix/nvm) to manage your Node versions)
+PHP 7.4
+Node 14+
 
 ## Setting up
 1. Clone/download to your machine
-2. Run `sh install/init.sh`, follow prompts
+2. Run `composer install`
+3. Link `web` folder (for Valet run `valet link project-name`)
+4. Create a new DB and change the `env` credentials
+5. Import DB or go to `/admin` and go through the steps to install the Сraft CMS 
+6. Run `npm install`
+7. Run `npm run dev` or `npm run build`
 
-```bash
-~/Sites/Starter-Kit-test develop
-❯ sh init.sh
-
-Is this a new git project? (y/n) 
-> y
-Removing git reference. Make sure you git init with the project repo.
-```
-
-
-### Choosing CraftCMS
-```bash
-1) Craft
-2) Wordpress
-What type of project will this be? 
-> 1
-
-------------------------
-Installing Craft CMS, this will take a minute.
-------------------------
-```
-
-### Choosing Wordpress
-The only this that is required to build a wordpress project is the theme name.
-```bash
-1) Craft
-2) Wordpress
-What type of project will this be? 
-> 2
-
-Enter Project Name (e.g. Project Name):
-```
