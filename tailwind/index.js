@@ -18,10 +18,7 @@ const range = (min, max) => Array.from({ length: max - min + 1 }, (_, i) => min 
 const cols = range(1, 23)
 
 module.exports = {
-  mode: 'jit',
-
   content: configs.purge,
-
   future: {
     purgeLayersByDefault: true,
     removeDeprecatedGapUtilities: true

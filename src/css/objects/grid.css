@@ -1,8 +1,0 @@
-.o-grid {
-  @apply grid gap-8;
-  grid-template-columns: repeat(22, minmax(0, 1fr));
-
-  @screen md {
-    @apply gap-16;
-  }
-}
